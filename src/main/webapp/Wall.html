@@ -60,10 +60,7 @@
         </div>
     </div>
 
-
-    //为了使用ajax
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-
 
     <script>
         let container = document.querySelector('.container');
@@ -129,7 +126,7 @@
                     //body就是响应的body内容，是个json数组
                     //jquery非常智能的帮我们把 json数组给解析成了js对象数组
                     //但是有个前提条件，就是响应的Context-Type得是application/json
-                    let container = document.querySelector('.container')
+                    let container = document.querySelector('.container');
                     //用个循环，显示所有信息，一次循环就是一个[ ],里面是js对象的三个结构
                     for(let i=0;i<body.length;i++)
                     {

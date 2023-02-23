@@ -62,7 +62,7 @@ public class MessageServlet extends HttpServlet {
         resp.setStatus(200);
 
         System.out.println("提交数据成功" +"from = " + message.getFrom()+
-                ",to="+ message.getTo()+",message=" +message.getMessage());
+                ",   to= "+ message.getTo()+"   ,message= " +message.getMessage());
         //后端代码完成
 
     }
